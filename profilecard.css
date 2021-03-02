@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    font-size: 18px;
+    font-family: "Kumbh Sans";
+    font-weight: 400;
+    background-color: hsl(185, 75%, 39%);
+}
+.wrapper{
+    
+}
+.card{
+    width: 350px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding-bottom: 20px;
+
+}
+.card .header img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.card .img{
+    text-align: center;
+    position: relative;
+    transform: translateY(-50%);
+}
+.card .img img{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.card .section{
+    text-align: center;
+}
+.card .section .title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -10%;
+}
+.card .section .subtitle{
+    color: hsl(0, 0%, 59%);
+
+}
+.card .section .rate{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.separator{
+    margin: 20px 0px;
+}
+.pattern-top img{
+    position:fixed;
+    top: -600px;
+    left: -300px;
+    z-index: -1;
+}
+.pattern-bottom img{
+    position: fixed;
+    bottom: -600px;
+    right: -300px;
+    z-index: -1;
+
+}
